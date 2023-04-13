@@ -1,4 +1,4 @@
-# slacker [![Slack](https://img.shields.io/badge/slack-%23slacker--framework-orange)](https://gophers.slack.com/archives/C051MGM3GFL) [![Go Report Card](https://goreportcard.com/badge/github.com/shomali11/slacker)](https://goreportcard.com/report/github.com/shomali11/slacker) [![GoDoc](https://godoc.org/github.com/shomali11/slacker?status.svg)](https://godoc.org/github.com/shomali11/slacker) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go) 
+# slacker [![Slack](https://img.shields.io/badge/slack-%23slacker--framework-orange)](https://gophers.slack.com/archives/C051MGM3GFL) [![Go Report Card](https://goreportcard.com/badge/github.com/troyxmccall/slacker)](https://goreportcard.com/report/github.com/troyxmccall/slacker) [![GoDoc](https://godoc.org/github.com/troyxmccall/slacker?status.svg)](https://godoc.org/github.com/troyxmccall/slacker) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 
 Built on top of the Slack API [github.com/slack-go/slack](https://github.com/slack-go/slack), Slacker is a low-friction framework for creating Slack Bots.
 
@@ -22,7 +22,7 @@ Built on top of the Slack API [github.com/slack-go/slack](https://github.com/sla
 # Install
 
 ```
-go get github.com/shomali11/slacker
+go get github.com/troyxmccall/slacker
 ```
 
 # Preparing your Slack App
@@ -84,7 +84,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -120,7 +120,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -158,7 +158,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -205,7 +205,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -248,7 +248,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -294,7 +294,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 )
 
@@ -345,7 +345,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -392,7 +392,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 )
 
@@ -440,7 +440,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 )
 
@@ -488,7 +488,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 )
 
@@ -599,7 +599,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -636,7 +636,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -701,7 +701,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack/socketmode"
 )
 
@@ -761,7 +761,7 @@ import (
 
 	"context"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
@@ -817,7 +817,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 )
 
@@ -896,7 +896,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -936,7 +936,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func main() {
@@ -974,7 +974,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 )
 
@@ -1020,7 +1020,7 @@ import (
 
 	"github.com/shomali11/commander"
 	"github.com/shomali11/proper"
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 	"github.com/slack-go/slack"
 	"github.com/slack-go/slack/socketmode"
 )

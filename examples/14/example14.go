@@ -7,7 +7,7 @@ import (
 
 	"context"
 
-	"github.com/shomali11/slacker"
+	"github.com/troyxmccall/slacker"
 )
 
 func printCommandEvents(analyticsChannel <-chan *slacker.CommandEvent) {
